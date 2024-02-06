@@ -20,8 +20,8 @@
 
 ## Usage
 - It is recommended to back up the target world before proceeding.
-- Enter `java -jar MCJE-PlayerAdvancementsMerge.jar -i <TARGET_ADVANCEMENTS_JSON_FILES> -o <OUTPUT_ADVANCEMENTS_JSON_FILE>` in the command line to merges statistics files.
-> The TARGET_ADVANCEMENTS_JSON_FILES parameter refers to multiple JSON files with UUID names that are located in the "stats" folder of the target world. For single player worlds, you must specify all the files. However, for multiplayer worlds, you need to know both the old and current UUIDs of the target player and specify the corresponding files.
+- Enter `java -jar MCJE-PlayerAdvancementsMerge.jar -i <TARGET_ADVANCEMENTS_JSON_FILES> -o <OUTPUT_ADVANCEMENTS_JSON_FILE>` in the command line to merges advancements files.
+> The TARGET_ADVANCEMENTS_JSON_FILES parameter refers to multiple JSON files with UUID names that are located in the "advancements" folder of the target world. For single player worlds, you must specify all the files. However, for multiplayer worlds, you need to know both the old and current UUIDs of the target player and specify the corresponding files.
 
 > The OUTPUT_ADVANCEMENTS_JSON_FILE parameter represents the JSON file where the merges advancements will be saved. This file should not exist prior to running the command.
 - Rename the generated file to match the name of the advancements file most recently updated by the target player.
